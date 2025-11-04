@@ -1,0 +1,78 @@
+/* Body styling for overall neatness */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling with background color and logo */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #1a237e; /* deep blue */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+
+/* Search bar styling */
+#search_input {
+    width: 80%; /* large input */
+    padding: 12px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect on search bar */
+#search_input:hover {
+    border-color: blueviolet;
+    background-color: #ffe6e6;
+}
+
+/* Search button styling */
+#search_button {
+    padding: 12px 20px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1976d2; /* nice blue */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#search_button:hover {
+    background-color: blueviolet; /*color change on hover*/
+}
+
+/* Result div styling */
+#result {
+    margin-top: 21px;
+    padding: 14px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.1);
+}
+
+/* List and text formatting */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+h3, h4, p {
+    margin: 5px 0;
+}

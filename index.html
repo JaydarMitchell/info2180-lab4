@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Info 2180 Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Avengers Character Search</h1>
+
+<h1 class="header">
+    <img src="shield.png" alt="Avenger Logo" id="avenger_logo" class="logo">
+    Avengers Character Search
+</h1>
+
+
+<p>Search by full name or alias:</p>
+<br>
+
+<label for="search_input"></label><input type="text" id="search_input" placeholder="E.g: Spiderman or Peter Parker">
 <button id="search_button">Search</button>
+
+<h2>RESULT:</h2>
+<hr>
+
+<div id="result"></div>
 
 <script src="app.js"></script>
 </body>
